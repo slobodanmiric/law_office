@@ -60,5 +60,10 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321202.8134694146!2d-114.3680122994638!3d51.027288334012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2z0JrQsNC70LPQsNGA0LgsINCQ0LvQsdC10YDRgtCwLCDQmtCw0L3QsNC00LA!5e0!3m2!1ssr!2srs!4v1615840284473!5m2!1ssr!2srs" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
 
+    <!-- footer -->
+    <footer>
+        <p>&copy 2021. webcon.rs</p>
+    </footer>
+
 </body>
 </html>

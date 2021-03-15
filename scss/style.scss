@@ -171,3 +171,20 @@ contact
         }
     }
 }
+/*********************
+map
+*********************/
+.map {
+    iframe {
+        display: block;
+    }
+}
+/*********************
+footer
+*********************/
+footer {
+    background: $primary;
+    text-align: center;
+    color: $white;
+    padding: 20px;
+}
