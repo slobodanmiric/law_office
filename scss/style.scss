@@ -10,3 +10,33 @@ $white: #fff;
 $lightGray: #a0a0a0;
 $gray: #eaeaea;
 $padding: 100px 0;
+/*********************
+mixins
+*********************/
+@mixin flex($justify, $align, $direction: row) {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+/*********************
+basic styles
+*********************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $fontFamily;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        transition: $transition;
+    }
+}
+ul {
+    list-style: none;
+}
