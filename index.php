@@ -32,6 +32,7 @@
         <hgroup>
             <h2>Experience - Trust - Results</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea. Fugit ab nihil eveniet accusamus vel. Accusantium eos, voluptate. Quos recusandae voluptas adipisci ipsa officia, repellendus ea similique labore obcaecati? Fugit ab nihil eveniet accusamus vel. Accusantium eos, voluptate. Quos recusandae voluptas adipisci ipsa officia, repellendus ea similique labore obcaecati?</p>
+            <button>View more</button>
         </hgroup>
     </header>
 

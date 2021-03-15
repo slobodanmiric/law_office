@@ -78,4 +78,11 @@ topBar
   background: #33a5d7;
 }
 
+/*********************
+mainHeader
+*********************/
+.mainHeader {
+  background-image: url();
+}
+
 /*# sourceMappingURL=style.css.map */
