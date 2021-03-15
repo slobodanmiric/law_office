@@ -41,6 +41,14 @@ mixins
         color: $primary;
     }
 }
+@mixin underline($color, $width) {
+    background: $color;
+    width: $width;
+    display: block;
+    height: 2px;
+    content: "";
+    margin: 0 0 20px 0;
+}
 /*********************
 basic styles
 *********************/
@@ -140,6 +148,26 @@ mainHeader
         }
         button {
             @include btn;
+        }
+    }
+}
+/*********************
+contact
+*********************/
+.contact {
+    padding: $padding;
+    @include flex(space-between, center);
+    article {
+        flex: 1;
+        h3 {
+            color: $primary;
+            font-size: 2rem;
+            &::after {
+                @include underline($primary, 50px);
+            }
+        }
+        p {
+            color: $secondary;
         }
     }
 }
