@@ -217,3 +217,49 @@ services
         background: $secondary;
     }
 }
+/*********************
+about
+*********************/
+.about {
+    @include flex(space-between,center);
+    article:first-child {
+        flex: 0 0 50%;
+        background: $gray;
+        padding-left: 10%;
+        padding-right: 5%;
+        height: 50vh;
+        @include flex(center, flex-start, column);
+        color: $primary;
+        h2 {
+            font-size: 2.5rem;
+            &::after {
+                @include underline($primary, 50px);
+            }
+        }
+        a {
+            color: $primary;
+            margin-top: 20px;
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+    article:last-child {
+        flex: 0 0 50%;
+        background-image: linear-gradient(rgba($tertiary,.7), rgba($tertiary,.7)), url(../img/about.jpg);
+        @include bgImg(50vh);
+        padding-right: 10%;
+        @include flex(flex-end, center);
+        h2 {
+            border: 2px solid $white;
+            padding: 70px;
+            color: $white;
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 400;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -36,7 +36,7 @@
             <a href="">Learn more &nbsp; &rang;</a>
         </article>
         <article>
-            <h2>Welcome to <br> Solo Practice <br> Law</h2>
+            <h2>Welcome to <br> <span>Solo Practice</span> <br> Law</h2>
         </article>
     </section>
 

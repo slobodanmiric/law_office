@@ -237,4 +237,70 @@ services
   background: #33a5d7;
 }
 
+/*********************
+about
+*********************/
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.about article:first-child {
+  flex: 0 0 50%;
+  background: #eaeaea;
+  padding-left: 10%;
+  padding-right: 5%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #3177b5;
+}
+.about article:first-child h2 {
+  font-size: 2.5rem;
+}
+.about article:first-child h2::after {
+  background: #3177b5;
+  width: 50px;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+}
+.about article:first-child a {
+  color: #3177b5;
+  margin-top: 20px;
+}
+.about article:first-child a:hover {
+  color: #33a5d7;
+}
+.about article:last-child {
+  flex: 0 0 50%;
+  background-image: linear-gradient(rgba(8, 0, 51, 0.7), rgba(8, 0, 51, 0.7)), url(../img/about.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  padding-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.about article:last-child h2 {
+  border: 2px solid #fff;
+  padding: 70px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.about article:last-child h2 span {
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=style.css.map */
