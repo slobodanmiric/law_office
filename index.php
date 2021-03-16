@@ -28,4 +28,16 @@
         </article>
     </section>
 
+    <!-- about -->
+    <section class="about">
+        <article>
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel cum nulla mollitia earum ad maxime laudantium ipsa cupiditate totam nostrum vero, reiciendis consequatur sunt voluptates laborum, ducimus repellendus possimus at autem deleniti! Facilis est vero cum consequuntur aliquam nobis!</p>
+            <a href="">Learn more &nbsp; &rang;</a>
+        </article>
+        <article>
+            <h2>Welcome to <br> Solo Practice <br> Law</h2>
+        </article>
+    </section>
+
 <?php include 'partials/footer.php'; ?>
