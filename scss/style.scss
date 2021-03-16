@@ -293,6 +293,12 @@ peoples
     color: $white;
     .container {
         @include flex(center, center);
+        article:nth-child(even) {
+            background: $secondary;
+            button {
+                background: $primary;
+            }
+        }
         article {
             flex: 0 0 25%;
             margin-top: -100px;
@@ -318,13 +324,5 @@ peoples
             }
         }
         padding-bottom: 100px;
-        article:nth-child(even) {
-            background: $secondary;
-            button {
-                @include btn;
-                background: $primary;
-                border: none;
-            }
-        }
     }
 }
