@@ -284,3 +284,24 @@ team
         margin: auto;
     }
 }
+/*********************
+peoples
+*********************/
+.peoples {
+    background: $gray;
+    text-align: center;
+    color: $white;
+    .container {
+        @include flex(center, center);
+        article {
+            flex: 0 0 25%;
+            margin-top: -100px;
+            img {
+                width: 100%;
+            }
+            .text {
+                padding: 40px;
+            }
+        }
+    }
+}

@@ -48,8 +48,8 @@
 
     <!-- peoples -->
     <section class="peoples">
-        <article class="container">
-            <div>
+        <div class="container">
+            <article>
                 <img src="img/people1.jpg" alt="">
                 <div class="text">
                     <h3>Etta James</h3>
@@ -57,8 +57,8 @@
                     <button>Learn more</button>
                     <button>Contact</button>
                 </div>
-            </div>
-            <div>
+            </article>
+            <article>
                 <img src="img/people2.jpg" alt="">
                 <div class="text">
                     <h3>Louis Armstrong</h3>
@@ -66,8 +66,8 @@
                     <button>Learn more</button>
                     <button>Contact</button>
                 </div>
-            </div>
-            <div>
+            </article>
+            <article>
                 <img src="img/people3.jpg" alt="">
                 <div class="text">
                     <h3>Bessie Smith</h3>
@@ -75,8 +75,8 @@
                     <button>Learn more</button>
                     <button>Contact</button>
                 </div>
-            </div>
-            <div>
+            </article>
+            <article>
                 <img src="img/people4.jpg" alt="">
                 <div class="text">
                     <h3>Elmore James</h3>
@@ -84,8 +84,8 @@
                     <button>Learn more</button>
                     <button>Contact</button>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
     </section>
 
 <?php include 'partials/footer.php'; ?>
