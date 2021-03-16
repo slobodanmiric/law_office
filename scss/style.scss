@@ -263,3 +263,24 @@ about
         }
     }
 }
+/*********************
+team
+*********************/
+.team {
+    background-image: linear-gradient(rgba($black,.7), rgba($black,.7)), url(../img/team.jpg);
+    @include bgImg(auto);
+    color: $white;
+    text-align: center;
+    padding: 100px 0;
+    h2 {
+        font-size: 2.5rem;
+        &::after {
+            @include underline($white, 50px);
+            margin: 0px auto 30px auto;
+        }
+    }
+    p {
+        width: 50%;
+        margin: auto;
+    }
+}
