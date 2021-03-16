@@ -271,7 +271,7 @@ team
     @include bgImg(auto);
     color: $white;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 0 200px 0;
     h2 {
         font-size: 2.5rem;
         &::after {
@@ -296,11 +296,34 @@ peoples
         article {
             flex: 0 0 25%;
             margin-top: -100px;
+            background: $primary;
+            button {
+                @include btn;
+                width: 100%;
+                background: $secondary;
+                border: none;
+            }
             img {
                 width: 100%;
             }
             .text {
                 padding: 40px;
+                h3 {
+                    font-size: 2rem;
+                    &::after {
+                        @include underline($white,150px);
+                        margin: 20px auto;
+                    }
+                }
+            }
+        }
+        padding-bottom: 100px;
+        article:nth-child(even) {
+            background: $secondary;
+            button {
+                @include btn;
+                background: $primary;
+                border: none;
             }
         }
     }

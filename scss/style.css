@@ -313,7 +313,7 @@ team
   background-size: cover;
   color: #fff;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 200px 0;
 }
 .team h2 {
   font-size: 2.5rem;
@@ -346,16 +346,70 @@ peoples
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding-bottom: 100px;
 }
 .peoples .container article {
   flex: 0 0 25%;
   margin-top: -100px;
+  background: #3177b5;
+}
+.peoples .container article button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+  width: 100%;
+  background: #33a5d7;
+  border: none;
+}
+.peoples .container article button:hover {
+  background: #fff;
+  color: #3177b5;
 }
 .peoples .container article img {
   width: 100%;
 }
 .peoples .container article .text {
   padding: 40px;
+}
+.peoples .container article .text h3 {
+  font-size: 2rem;
+}
+.peoples .container article .text h3::after {
+  background: #fff;
+  width: 150px;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  margin: 20px auto;
+}
+.peoples .container article:nth-child(even) {
+  background: #33a5d7;
+}
+.peoples .container article:nth-child(even) button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+  background: #3177b5;
+  border: none;
+}
+.peoples .container article:nth-child(even) button:hover {
+  background: #fff;
+  color: #3177b5;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -84,7 +84,7 @@
                     <button>Learn more</button>
                     <button>Contact</button>
                 </div>
-            </article>
+        </article>
         </div>
     </section>
 
