@@ -40,4 +40,10 @@
         </article>
     </section>
 
+    <!-- team -->
+    <section class="team">
+        <h2>Our team</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime animi eaque sed esse eum eius consectetur neque praesentium voluptatum? Cupiditate, ex, ratione. Delectus fuga in iste assumenda ipsum perspiciatis? Magni adipisci pariatur eveniet explicabo velit dolores sunt aspernatur ipsam dolorum nihil facere veritatis, aperiam delectus id rem vitae fugiat iste laboriosam similique amet, ratione quasi. Tempora magni soluta temporibus pariatur voluptatibus natus iusto, repellat ratione qui, assumenda, recusandae quos id! Ea impedit, culpa optio aperiam, beatae quibusdam ex deleniti minima.</p>
+    </section>
+
 <?php include 'partials/footer.php'; ?>
