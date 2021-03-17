@@ -88,19 +88,22 @@
         </div>
     </section>
 
-    <div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
-</div>
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <article class="owl-carousel owl-theme">
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum suscipit ipsa inventore error magni quae impedit quo sapiente minus nihil tempora accusamus cum, quaerat adipisci! Praesentium, ipsa! Vel, repellat reiciendis.</p>
+                <h3>Client name 1</h3>
+            </div>
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum suscipit ipsa inventore error magni quae impedit quo sapiente minus nihil tempora accusamus cum, quaerat adipisci! Praesentium, ipsa! Vel, repellat reiciendis.</p>
+                <h3>Client name 2</h3>
+            </div>
+            <div class="item">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum suscipit ipsa inventore error magni quae impedit quo sapiente minus nihil tempora accusamus cum, quaerat adipisci! Praesentium, ipsa! Vel, repellat reiciendis.</p>
+                <h3>Client name 3</h3>
+            </div>
+        </article>
+    </section>
 
 <?php include 'partials/footer.php'; ?>
