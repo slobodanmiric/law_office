@@ -361,7 +361,7 @@ consulatation
         flex: 0 0 50%;
         padding-left: 10%;
         background-image: linear-gradient(rgba($tertiary,.7), rgba($tertiary,.7)), url(../img/about2.jpg);
-        @include bgImg(50vh);
+        @include bgImg(55vh);
         @include flex(flex-start, center);
         h2 {
             @extend .borderHeadings;
@@ -371,5 +371,34 @@ consulatation
     article:last-child {
         flex: 0 0 50%;
         padding-right: 10%;
+        @include flex(flex-end, center);
+        form {
+            width: 70%;
+            @include flex(space-between, center);
+            input {
+                border: 2px solid $primary;
+                padding: 10px;
+                font-size: 1rem;
+                margin-bottom: 20px;
+                &[type="text"] {
+                    flex: 0 0 48%;
+                }
+                &[type="email"] {
+                    flex: 0 0 100%;
+                }
+            }
+            textarea {
+                border: 2px solid $primary;
+                padding: 10px;
+                font-size: 1rem;
+                flex: 0 0 100%;
+            }
+            button {
+                @include btn;
+                background: $primary;
+                flex: 0 0 100%;
+                border: 2px solid $primary;
+            }
+        }
     }
 }

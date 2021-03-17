@@ -435,7 +435,7 @@ consulatation
   flex: 0 0 50%;
   padding-left: 10%;
   background-image: linear-gradient(rgba(8, 0, 51, 0.7), rgba(8, 0, 51, 0.7)), url(../img/about2.jpg);
-  height: 50vh;
+  height: 55vh;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -450,6 +450,56 @@ consulatation
 .consulatation article:last-child {
   flex: 0 0 50%;
   padding-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.consulatation article:last-child form {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.consulatation article:last-child form input {
+  border: 2px solid #3177b5;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.consulatation article:last-child form input[type=text] {
+  flex: 0 0 48%;
+}
+.consulatation article:last-child form input[type=email] {
+  flex: 0 0 100%;
+}
+.consulatation article:last-child form textarea {
+  border: 2px solid #3177b5;
+  padding: 10px;
+  font-size: 1rem;
+  flex: 0 0 100%;
+}
+.consulatation article:last-child form button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+  background: #3177b5;
+  flex: 0 0 100%;
+  border: 2px solid #3177b5;
+}
+.consulatation article:last-child form button:hover {
+  background: #fff;
+  color: #3177b5;
 }
 
 /*# sourceMappingURL=style.css.map */
