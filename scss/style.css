@@ -40,6 +40,18 @@ h1 {
   text-shadow: 0 0 2px #080033;
 }
 
+.borderHeadings, .consulatation article:first-child h2, .about article:last-child h2 {
+  border: 2px solid #fff;
+  padding: 70px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.borderHeadings span, .consulatation article:first-child h2 span, .about article:last-child h2 span {
+  font-weight: 700;
+}
+
 /*********************
 topBar
 *********************/
@@ -291,18 +303,6 @@ about
   align-items: center;
   flex-direction: row;
 }
-.about article:last-child h2 {
-  border: 2px solid #fff;
-  padding: 70px;
-  color: #fff;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 400;
-}
-.about article:last-child h2 span {
-  font-weight: 700;
-}
-
 /*********************
 team
 *********************/
@@ -419,6 +419,37 @@ testimonials
 }
 .testimonials .owl-carousel h3 {
   margin-bottom: 30px;
+}
+
+/*********************
+consulatation
+*********************/
+.consulatation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.consulatation article:first-child {
+  flex: 0 0 50%;
+  padding-left: 10%;
+  background-image: linear-gradient(rgba(8, 0, 51, 0.7), rgba(8, 0, 51, 0.7)), url(../img/about2.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.consulatation article:first-child h2 {
+  text-align: left;
+}
+.consulatation article:last-child {
+  flex: 0 0 50%;
+  padding-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
